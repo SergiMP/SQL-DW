@@ -111,7 +111,7 @@ CREATE TABLE movies.tb_person (
 ---------------------------------------------
 
 CREATE TABLE movies.tb_movie_person (
-    movie_id         INTEGER NOT NULL,
+    movie_id         INTEGER NOT NULL PRIMARY KEY,
     person_id        INTEGER NOT NULL,
     role_id          INTEGER NOT NULL,
     movie_award_ind  CHAR(1) NOT NULL,
